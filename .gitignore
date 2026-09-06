@@ -1,0 +1,11 @@
+# Secrets — never commit real Payaza keys
+.env
+.env.local
+*.key
+*.pem
+
+# Probe output
+results/
+
+node_modules/
+.DS_Store
